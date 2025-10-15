@@ -2,11 +2,23 @@
 
 A standalone development environment setup application for installing and managing development tools.
 
-## Installation
+## Quick Install
 
-Run the boot script to start the installation:
+Install and run Omatoma with a single command:
 
 ```bash
+wget -qO- https://raw.githubusercontent.com/chris-toma/omatoma/main/boot.sh | bash
+```
+
+This will download and execute the boot script directly, prompting you in the terminal for installation options.
+
+## Manual Installation
+
+If you prefer to clone the repository first:
+
+```bash
+git clone https://github.com/chris-toma/omatoma.git ~/.local/share/omatoma
+cd ~/.local/share/omatoma
 bash boot.sh
 ```
 
