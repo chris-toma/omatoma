@@ -5,10 +5,11 @@ CHOICES=(
   "GoLand       Install GoLand IDE"
   "Cursor       Install Cursor editor"
   "Zsh Plugins  Install additional zsh plugins"
+  "Kanata       Install Kanata keyboard remapper"
   "<< Back      "
 )
 
-CHOICE=$(gum choose "${CHOICES[@]}" --height 7 --header "Install application")
+CHOICE=$(gum choose "${CHOICES[@]}" --height 8 --header "Install application")
 
 if [[ "$CHOICE" == "<< Back"* ]] || [[ -z "$CHOICE" ]]; then
   echo ""
