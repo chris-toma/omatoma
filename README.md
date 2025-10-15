@@ -1,4 +1,4 @@
-# OmacTV
+# Omatoma
 
 A standalone development environment setup application for installing and managing development tools.
 
@@ -7,13 +7,13 @@ A standalone development environment setup application for installing and managi
 Run the boot script to start the installation:
 
 ```bash
-bash applications/omactv/boot.sh
+bash boot.sh
 ```
 
-Or if you've already cloned it to `~/.local/share/omactv`:
+Or if you've already cloned it to `~/.local/share/omatoma`:
 
 ```bash
-source ~/.local/share/omactv/install.sh
+source ~/.local/share/omatoma/install.sh
 ```
 
 ## What Gets Installed
@@ -32,7 +32,7 @@ source ~/.local/share/omactv/install.sh
 
 ## Post-Installation
 
-After installation, you can use the `omactv` command to:
+After installation, you can use the `omatoma` command to:
 
 - Update applications
 - Install additional components
@@ -42,7 +42,7 @@ After installation, you can use the `omactv` command to:
 ## Structure
 
 ```
-applications/omactv/
+omatoma/
 ├── boot.sh              # Entry point
 ├── install.sh           # Main installer
 ├── version              # Version tracking
@@ -58,7 +58,7 @@ applications/omactv/
 ## Configuration
 
 Configuration files are stored in:
-- `~/.local/share/omactv/`
+- `~/.local/share/omatoma/`
 
 User configurations are stored in:
 - `~/.zshrc` (Zsh configuration)

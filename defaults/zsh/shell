@@ -1,6 +1,6 @@
 # Set PATH
-export PATH="./bin:$HOME/.local/bin:$HOME/.local/share/omactv/bin:$PATH"
+export PATH="./bin:$HOME/.local/bin:$HOME/.local/share/omatoma/bin:$PATH"
 
-# OmacTV path
-export OMACTV_PATH="$HOME/.local/share/omactv"
+# Omatoma path
+export OMATOMA_PATH="$HOME/.local/share/omatoma"
 

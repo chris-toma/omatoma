@@ -1,13 +1,13 @@
 #!/bin/bash
 
 cat <<EOF
-OmacTV - Development Environment Setup
+Omatoma - Development Environment Setup
 
 Commands:
-  omactv           - Open interactive menu
+  omatoma           - Open interactive menu
   
 Menu Options:
-  Update           - Update OmacTV or individual applications
+  Update           - Update Omatoma or individual applications
   Install          - Install additional components
   Uninstall        - Remove installed applications
   Manual           - Show this help message
@@ -20,11 +20,11 @@ Installed Components:
   - Tmux and Tmuxp
 
 Configuration files are stored in:
-  ~/.local/share/omactv/
+  ~/.local/share/omatoma/
 
 For more information, visit the documentation.
 EOF
 
 read -p "Press Enter to return to menu..."
-source $OMACTV_PATH/bin/omactv-sub/menu.sh
+source $OMATOMA_PATH/bin/omatoma-sub/menu.sh
 

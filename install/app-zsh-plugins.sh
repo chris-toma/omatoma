@@ -32,11 +32,11 @@ if [ -f ~/.zshrc ]; then
     sed -i 's/^plugins=.*/plugins=(git git-history zsh-syntax-highlighting zsh-autosuggestions zsh-vi-mode zsh-easy-motion)/' ~/.zshrc
   fi
   
-  # Source omactv defaults
-  if ! grep -q "source.*omactv.*defaults" ~/.zshrc; then
+  # Source omatoma defaults
+  if ! grep -q "source.*omatoma.*defaults" ~/.zshrc; then
     echo "" >> ~/.zshrc
-    echo "# OmacTV defaults" >> ~/.zshrc
-    echo "source ~/.local/share/omactv/defaults/zsh/rc" >> ~/.zshrc
+    echo "# Omatoma defaults" >> ~/.zshrc
+    echo "source ~/.local/share/omatoma/defaults/zsh/rc" >> ~/.zshrc
   fi
 fi
 

@@ -14,10 +14,10 @@ if [[ "$CHOICE" == "<< Back"* ]] || [[ -z "$CHOICE" ]]; then
   echo ""
 else
   INSTALLER=$(echo "$CHOICE" | awk '{print $1}' | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g')
-  INSTALLER_FILE="$OMACTV_PATH/install/app-$INSTALLER.sh"
+  INSTALLER_FILE="$OMATOMA_PATH/install/app-$INSTALLER.sh"
   source $INSTALLER_FILE && gum spin --spinner globe --title "Install completed!" -- sleep 3
 fi
 
 clear
-source $OMACTV_PATH/bin/omactv
+source $OMATOMA_PATH/bin/omatoma
 

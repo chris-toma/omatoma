@@ -6,5 +6,5 @@ else
   SUB=$1
 fi
 
-[ -n "$SUB" ] && [ "$SUB" != "quit" ] && source $OMACTV_PATH/bin/omactv-sub/$SUB.sh
+[ -n "$SUB" ] && [ "$SUB" != "quit" ] && source $OMATOMA_PATH/bin/omatoma-sub/$SUB.sh
 

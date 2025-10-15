@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export OMATOMA_PATH="$HOME/.local/share/omatoma"
+
+source $OMATOMA_PATH/bin/omatoma-sub/header.sh
+source $OMATOMA_PATH/bin/omatoma-sub/menu.sh
+

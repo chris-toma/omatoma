@@ -3,7 +3,7 @@ set -e
 
 # Display ASCII art
 source "$(dirname "$0")/ascii.sh"
-echo "=> OmacTV Setup for Development Environment!"
+echo "=> Omatoma Setup for Development Environment!"
 echo -e "\nBegin installation (or abort with ctrl+c)..."
 
 # Install git if needed

@@ -9,6 +9,6 @@ plugins=(git git-history zsh-syntax-highlighting zsh-autosuggestions zsh-vi-mode
 
 source $ZSH/oh-my-zsh.sh
 
-# OmacTV defaults
-source ~/.local/share/omactv/defaults/zsh/rc
+# Omatoma defaults
+source ~/.local/share/omatoma/defaults/zsh/rc
 

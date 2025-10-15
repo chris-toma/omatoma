@@ -1,6 +1,6 @@
-source ~/.local/share/omactv/defaults/zsh/shell
-source ~/.local/share/omactv/defaults/zsh/aliases
-source ~/.local/share/omactv/defaults/zsh/functions
-source ~/.local/share/omactv/defaults/zsh/prompt
-source ~/.local/share/omactv/defaults/zsh/init
+source ~/.local/share/omatoma/defaults/zsh/shell
+source ~/.local/share/omatoma/defaults/zsh/aliases
+source ~/.local/share/omatoma/defaults/zsh/functions
+source ~/.local/share/omatoma/defaults/zsh/prompt
+source ~/.local/share/omatoma/defaults/zsh/init
 
