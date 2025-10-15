@@ -1,0 +1,3 @@
+# Simple prompt
+PROMPT='%F{cyan}➜%f %F{blue}%~%f '
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export OMACTV_PATH="$HOME/.local/share/omactv"
+
+source $OMACTV_PATH/bin/omactv-sub/header.sh
+source $OMACTV_PATH/bin/omactv-sub/menu.sh
+

@@ -1,0 +1,6 @@
+# Set PATH
+export PATH="./bin:$HOME/.local/bin:$HOME/.local/share/omactv/bin:$PATH"
+
+# OmacTV path
+export OMACTV_PATH="$HOME/.local/share/omactv"
+

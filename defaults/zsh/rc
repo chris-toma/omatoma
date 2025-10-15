@@ -1,0 +1,6 @@
+source ~/.local/share/omactv/defaults/zsh/shell
+source ~/.local/share/omactv/defaults/zsh/aliases
+source ~/.local/share/omactv/defaults/zsh/functions
+source ~/.local/share/omactv/defaults/zsh/prompt
+source ~/.local/share/omactv/defaults/zsh/init
+

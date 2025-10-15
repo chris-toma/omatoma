@@ -1,0 +1,14 @@
+# Path to oh-my-zsh
+export ZSH="$HOME/.oh-my-zsh"
+
+# Theme
+ZSH_THEME="robbyrussell"
+
+# Plugins
+plugins=(git git-history zsh-syntax-highlighting zsh-autosuggestions zsh-vi-mode zsh-easy-motion)
+
+source $ZSH/oh-my-zsh.sh
+
+# OmacTV defaults
+source ~/.local/share/omactv/defaults/zsh/rc
+
