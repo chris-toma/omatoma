@@ -4,7 +4,7 @@ CHOICES=(
   "SSH Key      Generate new GitHub SSH key"
   "GoLand       Install GoLand IDE"
   "Cursor       Install Cursor editor"
-  "Zsh Plugins  Install additional zsh plugins"
+  "Zsh          Install Zsh, oh-my-zsh, and plugins"
   "Kanata       Install Kanata keyboard remapper"
   "<< Back      "
 )

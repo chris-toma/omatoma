@@ -9,15 +9,6 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt install -y curl git unzip
 
-# Install gum (required for interactive menus)
-if ! command -v gum &> /dev/null; then
-  echo "Installing gum..."
-  sudo mkdir -p /etc/apt/keyrings
-  curl -fsSL https://repo.charm.sh/apt/gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/charm.gpg
-  echo "deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *" | sudo tee /etc/apt/sources.list.d/charm.list
-  sudo apt update
-  sudo apt install -y gum
-fi
 
 # Run installers in sequence
 OMATOMA_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
